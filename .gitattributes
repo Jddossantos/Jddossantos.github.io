@@ -1,3 +1,4 @@
 [200~A:/PORTFOLIO/Blu3Dragon01.github.io/images~ filter=lfs diff=lfs merge=lfs -text
 A:/PORTFOLIO/Blu3Dragon01.github.io/videos/DEMO[[:space:]]REEL.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+.mp4 filter=lfs diff=lfs merge=lfs -text
