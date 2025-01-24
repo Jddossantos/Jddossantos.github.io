@@ -9,7 +9,6 @@
 <body>
     <header class="header">
         <h1>Joshua Dos Santos</h1>
-        
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -23,14 +22,143 @@
         <article class="project">
             <img src="images/Screenshot 2024-12-21 001031.png" alt="Forgotten on the Edge">
             <h3>Forgotten on the Edge (Personal Project)</h3>
-            <p><strong>2D Platformer, Unity Engine, C#</strong></p>
+            <p><strong>Genre: </strong>2D Platformer, Action, Role Playing, Pixel Art</p>
+            <p><strong>Engine: </strong>Unity Engine, C#</p>
+            <br>
             <ul>
-                <li>Designed and programmed player mechanics (movement, combat, animations).</li>
-                <li>Developed hitboxes, collisions, and audio manager.</li>
-                <li>Created and cleaned functional code.</li>
+                <li>Designed and Developed player mechanics (movement, combat, animations). While designing the player I also implmented a rigidbody component and altered it for what I deem fit for the player.</li>
+                <br>
+                <li>Developed hitboxes and colliders for the player using Unity's built in components and modified it within code so that the hitboxes can feel more consistant.</li>
+                <br>
+                <li>Created and cleaned functional code for the player mainly.</li>
+                <br>
+                <li>Created a Tile map for future levels, I also designed the maps hitboxes that doesn't allow the player to fall through the map.</li>
             </ul>
         </article>
-        <!-- Add more project articles -->
+        <!--  -->
+        <article class="project">
+            <img src="images/Screenshot 2024-12-21 001431.png" alt="Traveler in the Stars">
+            <h3>Traveler in the Stars (Mobile Game)</h3>
+            <p><strong>Genre: </strong>2D Endless Runner, Action, Pixel Art, Mobile, Casual</p>
+            <p><strong>Engine: </strong>Unity Engine, C#</p>
+            <br>
+            <ul>
+                <li>Developed a player input system for touch screens on phone and inputs in general</li>
+                <br>
+                <li>Developed and designed player movement and firing mechanics to destroy ships and asteroids. I also designed the player hitboxes and spawnpoints for projectile that are fired from the ship when the player hold their finger on the screen.</li>
+                <br>
+                <li>Designed and Developed the enemy and boss AI in the game that spawns in intervals and consistanly tracks the player. the boss only spawns after a certain amount of time in each level and restarts after the first boss dies.</li>
+                <br>
+                <li>Created an enviroment script that spawns asteroids randomly using a random number generator. these asteroids also have another random number generator on top of that to dictate their speed.</li>
+                <br>
+                <li>Developed a UI manager that displays the players current health and lives, this UI also displays the players time in the level and their score.</li>
+                <br>
+                <li>Created different scenes for the game that displays the main menu and game over. Both these scenes also uses the UI that was created to display the player shop which allows the player to change skins, and to lower or increase in game audio.</li>
+                <br>
+                <li>Created a audio manager for the sound effects in the game, and the background music.</li>
+            </ul>
+        </article>
+
+        <article class="project">
+            <img src="images/Screenshot 2025-01-23 161713.png" alt="Color Wave">
+            <h3>Color Wave</h3>
+            <p><strong>Genre: </strong>2D, Casual, Endless waves, Arcade</p>
+            <p><strong>Engine: </strong>Unity Engine, C#</p>
+            <br>
+            <ul>
+                <li>Developed player movement and helped design player controls.</li>
+                <br>
+                <li>Helped develop and design game mechanics and level hitboxes along with player hitboxes and collision components</li>
+                <br>
+                <li>Helped design level layout with other fellow developers that were working on the level to make other levels feel unqiue</li>
+                <br>
+                <li>Helped Design the GDD for the game, during the process I and other fellow developers finished the desgin of the game. We descided how the game should look and feel with their controls</li>
+            </ul>
+        </article>
+
+        <article class="project">
+            <img src="images/Screenshot 2024-12-21 001737.png" alt="Physics Tryout">
+            <h3>Physics Tryouts</h3>
+            <p><strong>Genre: </strong>3D, Racing simulator, Tank simulator, Physics based, Low Poly</p>
+            <p><strong>Engine: </strong>Unity Engine, C#</p>
+            <br>
+            <ul>
+                <li>Developed player movement without the use of rigidbody or built in unity physics, all physics related movement was done with code inside their respective scripts.</li>
+                <br>
+                <li>Developed a drag and velocity system using newtons second law within scripts to either increase velocity over time. the drag system uses the weight of the tank to slow down over time. Most of the calculations were done with code and used very little Unity components.</li>
+                <br>
+                <li>Tank Turret moves on it's own compared to the rest of the vehicle which was designed in a way for the player to be able to move in one direction but can look in another.</li>
+                <br>
+                <li>While the tank turret is uses more for side to side movement with your mouse, the tank barrel was developed for looking up and down and like that the tank can fire in any direction that player aims at.</li>
+                <br>
+                <li>Tank missle is also using physics and gravity which was designed in scripts, falling over time based on the weight and the velocity that it was fired from.</li>
+                <br>
+                <li>Developed and designed the level with the knowledge that it was going to have 3 different layers, the first layer is the race track where the tank can move at normal speeds i.e the drag would just be set to normal. The second layer is the grass layer which significantly slows down the tank if it ended up on the grass i.e the drag would increase to slow the tank down more. the third layer is the speed track layer which reduces the drag of tank to allow it to propel itself forward with a minor speed boost, while reducing drag.</li>
+                <br>
+                <li>A small UI manager was developed for retcile placement that the tank barrel would try to fire at.</li>
+            </ul>
+        </article>
+
+        <article class="project">
+            <img src="images/Screenshot 2024-12-21 001859.png" alt="Strugglin Duo">
+            <h3>Strugglin Duo</h3>
+            <p><strong>Genre: </strong>2D, Casual, PVP, Arcade, Two players</p>
+            <p><strong>Engine: </strong>Construct 3, JaveScript</p>
+            <br>
+            <ul>
+                <li>Developed both player movements and helped design player controls. Both players can be played on the same keyborad.</li>
+                <br>
+                <li>Developed and designed game mechanics and level hitboxes along with player hitboxes and collision components. Both players spawn on oppoisate sides of the map, each player has their own respective hit boxes</li>
+                <br>
+                <li>Designed the level layout using a tilemap system within construct 3.</li>
+                <br>
+                <li>Designed Main menus, end game screens and UIs for the in game.</li>
+                <br>
+                <li>Developed a audio manager for sound effects and in game background music.</li>
+            </ul>
+        </article>
+
+        <article class="project">
+            <img src="images/Screenshot 2024-12-21 001318.png" alt="FPS Speed Run">
+            <h3>FPS Speed Run</h3>
+            <p><strong>Genre: </strong>3D, First Person Shooter</p>
+            <p><strong>Engine: </strong>Unreal Engine, C++, Blueprints</p>
+            <br>
+            <ul>
+                <li>Developed player movement and player camera movement.</li>
+                <br>
+                <li>Designed level layout and weapon/ enemy placements</li>
+                <br>
+                <li>Designed a pick up system which swaps weapons based on the object picked up and spawns a the weapon that is in their hand in front of them to mimic an item being picked up and dropped on the floor.</li>
+                <br>
+                <li>Designed and developed the main menus, end game screens and UIs for the in game.</li>
+            </ul>
+        </article>
+
+        <article class="project">
+            <img src="images/Screenshot 2025-01-23 183717.png" alt="Alice in Public Domain">
+            <h3>Alice in Public Domain</h3>
+            <p><strong>Genre: </strong>3D, Third person, Action Role play</p>
+            <p><strong>Engine: </strong>Unreal Engine, C++, Blueprints</p>
+            <a href="downloads/Week-Three-Builld.zip" download title="Week-Three-Build">
+                <button class="download-button">DOWNLOAD (Windows - ZIP)</button></a>
+            <br>
+            <ul>
+                <li>Developed player movement and player camera movement. Then clamped the player camera movement to prevent some clipping.</li>
+                <br>
+                <li>Developed the ADS ability (Aim Down Sights) using interploation for a smooth transition in and out, using the Gameplay Ability System that was created for the project.</li>
+                <br>
+                <li>Helped create the pick up abilities and the ability to use them using the new attribute system that was implmented.</li>
+                <br>
+                <li>Helped with the creation of the new Enhanced input system.</li>
+                <br>
+                <li>Helped with the player camera clipping issue. this issue mainly started with the camera being offset from the spring arm and because of the built in engine components weren't being utilized properly. so by readjusting the spring arm offset, it fixed major clipping problems with the player.</li>
+                <br>
+                <li>Created a timeline for the Shrink ability that is tied to the main character of the game, this would help with transitions between Alice being big and small.</li>
+                <br>
+                <li>helped with the major design of the base player that is the parent character for all of the new characters to be introduced with continued devlopment. mainly with control fixes, in game feel and any more clipping issues that may arise as the development contiues.</li>
+            </ul>
+        </article>
     </section>
 
     <footer class="footer">
