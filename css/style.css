@@ -212,11 +212,32 @@ nav ul li a:hover
 
     .intro-image img 
     {
-        max-width: 100%;
+        max-width: 80%;
     }
 
     .download-button
     {
         width: 100%
+    }
+}
+
+/* Orientation Fix for Rotation */
+@media (orientation: landscape) and (max-width: 768px) 
+{
+    .intro 
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .intro-image img 
+    {
+        max-width: 40%;
+    }
+
+    .intro-text 
+    {
+        text-align: left;
     }
 }
